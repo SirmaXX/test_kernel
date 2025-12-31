@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# PATH ayarı
+export PATH="/bin:/sbin:/usr/bin:/usr/sbin"
+
+# Temel mount işlemleri
+mount -t proc proc /proc
+mount -t sysfs sysfs /sys
+mount -t devtmpfs devtmpfs /dev
+
+/scripts/show_banner.sh
+
+# Shell başlat
+exec /bin/sh
+
