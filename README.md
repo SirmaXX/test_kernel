@@ -53,8 +53,6 @@ Yukarıdaki işlemlerden sonra elde edeceğiniz dosya yapısı
 
 
 
-Markdown	HTML	Rendered Output
-``Use `code` in your Markdown file.``
 
 ```
 qemu-system-x86_64 \
